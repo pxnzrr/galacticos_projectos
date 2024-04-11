@@ -1,4 +1,5 @@
 def zabran_kradezi_okapu(material_okapu):
-    material_okapu == "plast"
-
-zabran_kradezi_okapu("železo")
+    materialy = ["plast","ocel","hliník"]
+    if material_okapu in materialy:
+        print( "Okap se nevyplatí ukrást")
+zabran_kradezi_okapu("ocel")
